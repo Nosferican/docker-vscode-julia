@@ -1,6 +1,3 @@
-LABEL maintainer="naoyabpr@gmail.com"
-LABEL version="0.1"
-LABEL description="VS Code and Julia"
 FROM codercom/code-server
 ENV JULIA_VERSION=1.3.1
 RUN cd /usr/local/bin \
